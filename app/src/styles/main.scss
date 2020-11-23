@@ -1,0 +1,25 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.navbar {
+  &__wrapper {
+    align-items: flex-end;
+    div{
+      margin: 1rem 2rem 1rem;
+    }
+  }
+
+  &__navigation {
+    margin-bottom: 1rem;
+  }
+}
+
+.game{
+  &__wrapper{
+    div{
+      height: 700px;
+    }
+  }
+  &__playing-field{
+    position: relative;
+  }
+}
