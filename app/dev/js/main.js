@@ -226,8 +226,8 @@ var cubeGame = /*#__PURE__*/function () {
     value: function timer() {
       var _this2 = this;
 
-      //let time = this.time
-      var time = 2;
+      var time = this.time;
+      console.log(time);
       var timerId = setInterval(function () {
         time--;
         _this2.timerInput.value = time;

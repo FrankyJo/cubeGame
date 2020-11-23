@@ -102,6 +102,7 @@ export default class cubeGame {
 
   timer() {
     let time = this.time
+    console.log(time)
     let timerId = setInterval(() => {
       time--
       this.timerInput.value = time;
